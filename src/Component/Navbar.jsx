@@ -5,7 +5,6 @@ import { PiSquaresFourDuotone } from "react-icons/pi"; // Grid icon
 import gif from "./icons8-react.gif"; // Logo
 import Left_div from "./Left_div";
 import Todo from "./Todo";
-import Weather from "./Weather";
 
 function Navbar() {
   const [isNightMode, setIsNightMode] = useState(false); // Night mode state
@@ -91,7 +90,6 @@ function Navbar() {
       <div className="flex">
         <Left_div isNightMode={isNightMode}></Left_div>
         <Todo isNightMode={isNightMode} />
-        <Weather />
       </div>
     </div>
   );
